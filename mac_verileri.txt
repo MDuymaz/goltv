@@ -8,12 +8,6 @@ MatchType: "Tenis"
 Text: "Canlı (22:00) A.Sabalenka vs V.Tomova (beIN Sports Max 1)"
 
 MatchType: "Futbol"
-Text: "Canlı (21:15) Irak vs Kuveyt (Spor Smart)"
-
-MatchType: "Futbol"
-Text: "Canlı (21:15) Suudi Arabistan vs Çin (Spor Smart 2)"
-
-MatchType: "Futbol"
 Text: "Yarın 02:00 ABD vs Panama (S Sport 2)"
 
 MatchType: "Tenis"
