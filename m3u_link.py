@@ -62,19 +62,18 @@ for url in urls:
                 print(f"🎥 En uzun video URL'si bulundu: {longest_video_url}")
             else:
                 print("⚠️ Bu sayfada video URL'si bulunamadı.")
+                all_video_urls.append("LİNK BULUNAMADI")
 
         except Exception as e:
             print(f"❌ {url} sayfasında hata oluştu: {e}")
+            all_video_urls.append("LİNK BULUNAMADI")
 
 # Video URL'lerini m3u_link_alındı.txt dosyasına kaydediyoruz
-if all_video_urls:
-    with open("m3u_link_alındı.txt", "w", encoding="utf-8") as file:
-        for video_url in all_video_urls:
-            # URL'yi istenilen formatta yazıyoruz
-            file.write(f"{video_url}\n")
-    print("🎉 Video URL'leri m3u_link_alındı.txt dosyasına kaydedildi.")
-else:
-    print("⚠️ Hiçbir video URL'si bulunamadı.")
+with open("m3u_link_alındı.txt", "w", encoding="utf-8") as file:
+    for video_url in all_video_urls:
+        file.write(f"{video_url}\n")
+
+print("🎉 Video URL'leri m3u_link_alındı.txt dosyasına kaydedildi.")
 
 # Tarayıcıyı kapatma işlemi
 try:
