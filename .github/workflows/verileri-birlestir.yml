@@ -1,8 +1,8 @@
-name: Run txttom3u.py script
+name: Run verileri_birlestir.py script
 
 on:
   workflow_run:
-    workflows: ["Run verileri_birlestir.py script"]
+    workflows: ["Run encode.py script"]
     types:
       - completed
   workflow_dispatch:  # Manuel çalıştırma
