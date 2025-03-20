@@ -1,50 +1,41 @@
 # Verilerinizi içeren dosya adlarını belirtiyoruz
 input_file = "son_m3u.txt"
-output_file = "gol.m3u"  # Çıktı dosyasının adı 'gol.m3u' olarak değiştirildi
+output_file = "gol.m3u"  # Çıktı dosyasının adı
 link_file = "ana_link.txt"  # Ana linki bu dosyadan alacağız
 
 # ana_link.txt dosyasındaki ana URL'yi alıyoruz
 with open(link_file, "r", encoding="utf-8") as file:
-    referrer_url = file.read().strip()  # Dosyadan URL'yi alıp boşlukları temizliyoruz
+    referrer_url = file.read().strip()
 
 # son_m3u.txt dosyasındaki verileri okuyoruz
 with open(input_file, "r", encoding="utf-8") as file:
-    lines = file.readlines()
+    lines = [line.strip() for line in file if line.strip()]  # Boş satırları temizle
 
 # Veriyi işleyip uygun formata dönüştürüyoruz
 formatted_data = []
+extm3u_added = False  # #EXTM3U eklenip eklenmediğini takip etmek için
 
-# Dosya başında #EXTM3U etiketinin olup olmadığını kontrol edeceğiz
-extm3u_added = False
-
-# Satırları işleyeceğiz
+# Satırları üçlü gruplar halinde işle
 i = 0
 while i < len(lines):
     try:
-        # Boş satır varsa, ona 'boş' yazıyoruz
-        if not lines[i].strip():
-            formatted_data.append("boş\n")
-            i += 1
-            continue
-
-        # MatchType, Text ve Url satırlarını alıyoruz
-        if lines[i].startswith('MatchType:') and i+2 < len(lines) and lines[i + 1].startswith('Text:') and lines[i + 2].startswith('Url:'):
-            match_type = lines[i].strip().replace('MatchType: ', '').replace('"', '')  # MatchType
-            text = lines[i + 1].strip().replace('Text: ', '').replace('"', '')  # Text
-            url = lines[i + 2].strip()  # URL
-
-            # URL'nin geçerli olup olmadığını kontrol edelim
+        if lines[i].startswith("MatchType:") and i+2 < len(lines):
+            match_type = lines[i].replace('MatchType: ', '').replace('"', '')
+            text = lines[i + 1].replace('Text: ', '').replace('"', '')
+            url = lines[i + 2]  # Üçüncü satırı URL olarak al
+            
+            # Eğer URL beklenen formatta değilse atla
             if not url.startswith("http"):
-                print(f"⚠️ Geçersiz URL: {url}")
-                i += 3  # Bir sonraki satıra geçiyoruz
+                print(f"⚠️ Geçersiz URL atlandı: {url}")
+                i += 3
                 continue
-
-            # Eğer #EXTM3U daha önce eklenmediyse, ilk başta ekliyoruz
+            
+            # Eğer ilk kez ekliyorsak #EXTM3U başlığını ekleyelim
             if not extm3u_added:
                 formatted_data.append("#EXTM3U\n")
                 extm3u_added = True
 
-            # Verinin düzgün olduğundan emin olduktan sonra formatlıyoruz
+            # Formatlı M3U satırlarını oluştur
             formatted_entry = f"""
 #EXTINF:-1 tvg-name="{text}" tvg-language="Turkish" tvg-country="TR" group-title="{match_type}",{text}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -52,18 +43,16 @@ while i < len(lines):
 {url}
 """
             formatted_data.append(formatted_entry)
-            i += 3  # Bir sonraki MatchType, Text ve Url için 3 satır ilerliyoruz
+            i += 3  # Sonraki üçlüye geç
         else:
-            # Eğer veriler uyumsuzsa, bir sonraki satıra geçiyoruz
-            print(f"⚠️ Eksik veya hatalı veri tespit edildi. Atlanıyor: {lines[i:i+3]}")
-            i += 1
+            print(f"⚠️ Eksik veya hatalı veri bulundu, atlanıyor: {lines[i]}")
+            i += 1  # Sonraki satıra geç
     except IndexError:
-        # Eğer bir hata oluşursa, sadece eksik veriler olduğunda bunu atlıyoruz
-        print(f"⚠️ Veriler eksik veya hatalı: {lines[i:i+3]}")
+        print(f"⚠️ Veriler eksik, işleme devam ediliyor...")
         break
 
-# Veriyi output dosyasına yazıyoruz
+# Veriyi output dosyasına yaz
 with open(output_file, "w", encoding="utf-8") as file:
     file.writelines(formatted_data)
 
-print(f"Veriler başarıyla '{output_file}' dosyasına kaydedildi.")
+print(f"✅ Veriler başarıyla '{output_file}' dosyasına kaydedildi.")
