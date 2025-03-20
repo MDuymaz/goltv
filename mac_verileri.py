@@ -13,14 +13,15 @@ soup = BeautifulSoup(response.content, "html.parser")
 
 # Find the div with the class "list-area"
 list_area_div = soup.find("div", class_="list-area")
+# Find the div with the class "channel-area"
+channel_area_div = soup.find("div", class_="channel-area")
 
-# If the div is found, proceed to extract the data
-if list_area_div:
-    # Find all elements with the required attributes (data-matchtype and get the text)
-    matches = list_area_div.find_all(attrs={"data-matchtype": True})
+# Open mac_verileri.txt to write the extracted data
+with open("mac_verileri.txt", "w", encoding="utf-8") as output_file:
+    if list_area_div:
+        # Find all elements with the required attributes (data-matchtype) and get the text
+        matches = list_area_div.find_all(attrs={"data-matchtype": True})
 
-    # Open mac_verileri.txt to write the extracted data
-    with open("mac_verileri.txt", "w", encoding="utf-8") as output_file:
         for match in matches:
             # Extract the required data attributes
             matchtype = match.get("data-matchtype")
@@ -29,11 +30,19 @@ if list_area_div:
             # Replace "-" with "vs"
             txt = txt.replace("-", "vs")
 
-            # Write them into the text file
+            # Write match data
             output_file.write(f'MatchType: "{matchtype}"\n')
             output_file.write(f'Text: "{txt}"\n')
             output_file.write("\n")  # Add a space between matches
+    
+    if channel_area_div:
+        # Find all elements with data-name attribute inside channel-area
+        channels = channel_area_div.find_all(attrs={"data-name": True})
 
-    print("Data has been extracted and saved to mac_verileri.txt")
-else:
-    print("The specified div <div class='list-area'> was not found.")
+        for channel in channels:
+            data_name = channel.get("data-name")
+            output_file.write(f'MatchType: "CANLI"\n')
+            output_file.write(f'Text: "{data_name}"\n')
+            output_file.write("\n")  # Add a space between channels
+
+print("Data has been extracted and saved to mac_verileri.txt")
