@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install undetected-chromedriver selenium psutil atexit warnings
+          pip install undetected-chromedriver selenium psutil
 
       - name: Run m3u_link.py
         run: |
