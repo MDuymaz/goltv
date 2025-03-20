@@ -22,15 +22,6 @@ Text: "Canlı (20:00) Türkiye vs Macaristan (TV8)"
 MatchType: "Futbol"
 Text: "Canlı (20:00) Türkiye vs Macaristan (CBC Sport)"
 
-MatchType: "Futbol"
-Text: "Canlı (19:00) İran vs BAE (Spor Smart)"
-
-MatchType: "Futbol"
-Text: "Canlı (19:00) Özbekistan vs Kırgızistan (Spor Smart 2)"
-
-MatchType: "Tenis"
-Text: "Canlı (19:00) Chozas/Ruiz vs Chingotto/Galan (beIN Sports Max 2)"
-
 MatchType: "Tenis"
 Text: "Bugün 22:00 A.Sabalenka vs V.Tomova (beIN Sports Max 1)"
 
