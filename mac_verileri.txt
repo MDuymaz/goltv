@@ -38,10 +38,10 @@ MatchType: "Futbol"
 Text: "Yarın 20:30 Türkiye vs Kosova (A Spor)"
 
 MatchType: "Basketbol"
-Text: "Yarın 20:30 Beşiktaş vs Emlak Konut (TRT Spor)"
+Text: "Yarın 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)"
 
 MatchType: "Basketbol"
-Text: "Yarın 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)"
+Text: "Yarın 20:30 Beşiktaş vs Emlak Konut (TRT Spor)"
 
 MatchType: "Basketbol"
 Text: "Yarın 22:15 Panathinaikos vs Alba Berlin (S Sport 2)"
