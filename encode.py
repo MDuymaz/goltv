@@ -51,7 +51,7 @@ for original_url in urls:
         final_url = f"{base_url}{urllib.parse.quote(original_url, safe=':/?&=')}&referer={encoded_referer}&origin={encoded_origin}"
         
         # final_url'yi listeye ekle
-        final_urls.append(f'Url: {final_url}')
+        final_urls.append(f"{final_url}")
 
 # final_url'leri final_url.txt dosyasına kaydetme
 try:
