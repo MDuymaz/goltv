@@ -32,6 +32,12 @@ while i < len(lines):
             text = lines[i + 1].strip().replace('Text: ', '').replace('"', '')  # Text
             url = lines[i + 2].strip()  # URL
 
+            # URL'nin geçerli olup olmadığını kontrol edelim
+            if not url.startswith("http"):
+                print(f"⚠️ Geçersiz URL: {url}")
+                i += 3  # Bir sonraki satıra geçiyoruz
+                continue
+
             # Eğer #EXTM3U daha önce eklenmediyse, ilk başta ekliyoruz
             if not extm3u_added:
                 formatted_data.append("#EXTM3U\n")
