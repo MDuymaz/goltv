@@ -1,3 +1,18 @@
+MatchType: "Futbol"
+Text: "Canlı (21:15) Irak vs Kuveyt (Spor Smart)"
+
+MatchType: "Futbol"
+Text: "Canlı (21:15) Suudi Arabistan vs Çin (Spor Smart 2)"
+
+MatchType: "Basketbol"
+Text: "Canlı (21:00) Monaco vs Fenerbahçe Beko (S Sport)"
+
+MatchType: "Basketbol"
+Text: "Canlı (21:00) Olympiakos vs Kizilyildiz (S Sport 2)"
+
+MatchType: "Tenis"
+Text: "Canlı (21:00) Abajo/Barrera vs Sanchez/Fernandez (beIN Sports Max 2)"
+
 MatchType: "Tenis"
 Text: "Canlı (20:30) C.Gauff vs S.Kenin (beIN Sports Max 1)"
 
@@ -15,21 +30,6 @@ Text: "Canlı (19:00) Özbekistan vs Kırgızistan (Spor Smart 2)"
 
 MatchType: "Tenis"
 Text: "Canlı (19:00) Chozas/Ruiz vs Chingotto/Galan (beIN Sports Max 2)"
-
-MatchType: "Basketbol"
-Text: "Bugün 21:00 Monaco vs Fenerbahçe Beko (S Sport)"
-
-MatchType: "Basketbol"
-Text: "Bugün 21:00 Olympiakos vs Kizilyildiz (S Sport 2)"
-
-MatchType: "Tenis"
-Text: "Bugün 21:00 Abajo/Barrera vs Sanchez/Fernandez (beIN Sports Max 2)"
-
-MatchType: "Futbol"
-Text: "Bugün 21:15 Suudi Arabistan vs Çin (Spor Smart 2)"
-
-MatchType: "Futbol"
-Text: "Bugün 21:15 Irak vs Kuveyt (Spor Smart)"
 
 MatchType: "Tenis"
 Text: "Bugün 22:00 A.Sabalenka vs V.Tomova (beIN Sports Max 1)"
