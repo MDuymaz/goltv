@@ -1,0 +1,52 @@
+name: Run txttom3u.py script
+
+on:
+  workflow_run:
+    workflows: ["Run verileri_birlestir.py script"]
+    types:
+      - completed
+  workflow_dispatch:  # Manuel çalıştırma
+
+jobs:
+  run_base_url_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run verileri_birlestir.py
+        run: |
+          python verileri_birlestir.py
+
+      - name: Commit updated son_m3u.txt
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          git pull
+          if git diff --quiet; then
+            echo "No changes detected. Skipping commit."
+          else
+            git add son_m3u.txt
+            git commit -m "İzle linkleri güncellendi."
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Trigger txttom3u.yml workflow
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"ref": "main"}' \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/txttom3u.yml/dispatches
