@@ -35,15 +35,19 @@ final_urls = []
 
 # URL'leri işleme
 for original_url in urls:
-    # URL encode işlemi
-    encoded_referer = urllib.parse.quote(referer, safe=":/?&=")  # referer için encode
-    encoded_origin = urllib.parse.quote(origin, safe=":/?&=")    # origin için encode
+    # Eğer URL, https://playerpro.live ile başlıyorsa, direkt ekle
+    if original_url.startswith("https://playerpro.live"):
+        final_urls.append(f'Url: "{original_url}"')
+    else:
+        # URL encode işlemi
+        encoded_referer = urllib.parse.quote(referer, safe=":/?&=")  # referer için encode
+        encoded_origin = urllib.parse.quote(origin, safe=":/?&=")    # origin için encode
 
-    # original_url'yi encode etmeden kullanıyoruz çünkü zaten encode edilmiş
-    final_url = f"{base_url}{urllib.parse.quote(original_url, safe=':/?&=')}&referer={encoded_referer}&origin={encoded_origin}"
-    
-    # final_url'yi listeye ekle
-    final_urls.append(f'Url: "{final_url}"')
+        # original_url'yi encode etmeden kullanıyoruz çünkü zaten encode edilmiş
+        final_url = f"{base_url}{urllib.parse.quote(original_url, safe=':/?&=')}&referer={encoded_referer}&origin={encoded_origin}"
+        
+        # final_url'yi listeye ekle
+        final_urls.append(f'Url: "{final_url}"')
 
 # final_url'leri final_url.txt dosyasına kaydetme
 try:
