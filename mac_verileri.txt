@@ -1,4 +1,13 @@
 MatchType: "Futbol"
+Text: "Canlı (19:00) İran vs BAE (Spor Smart)"
+
+MatchType: "Futbol"
+Text: "Canlı (19:00) Özbekistan vs Kırgızistan (Spor Smart 2)"
+
+MatchType: "Tenis"
+Text: "Canlı (19:00) Chozas/Ruiz vs Chingotto/Galan (beIN Sports Max 2)"
+
+MatchType: "Futbol"
 Text: "Canlı (18:00) Türkiye vs İtalya (TRT Spor)"
 
 MatchType: "Tenis"
@@ -8,19 +17,10 @@ MatchType: "Tenis"
 Text: "Canlı (17:00) Martin/Fallada vs Saez/Ortiz (beIN Sports Max 2)"
 
 MatchType: "Futbol"
-Text: "Bugün 19:00 Özbekistan vs Kırgızistan (Spor Smart 2)"
-
-MatchType: "Tenis"
-Text: "Bugün 19:00 Chozas/Ruiz vs Chingotto/Galan (beIN Sports Max 2)"
-
-MatchType: "Futbol"
-Text: "Bugün 19:00 İran vs BAE (Spor Smart)"
+Text: "Bugün 20:00 Türkiye vs Macaristan (CBC Sport)"
 
 MatchType: "Futbol"
 Text: "Bugün 20:00 Türkiye vs Macaristan (TV8)"
-
-MatchType: "Futbol"
-Text: "Bugün 20:00 Türkiye vs Macaristan (CBC Sport)"
 
 MatchType: "Tenis"
 Text: "Bugün 20:30 C.Gauff vs S.Kenin (beIN Sports Max 1)"
@@ -61,20 +61,26 @@ Text: "Yarın 03:30 S.Cirstea vs D.Collins (beIN Sports Max 1)"
 MatchType: "Basketbol"
 Text: "Yarın 05:00 GS Warriors vs Toronto Raptors (NBA TV)"
 
-MatchType: "Futbol"
-Text: "Yarın 05:30 Kanada vs Meksika (S Sport 2)"
-
 MatchType: "Basketbol"
 Text: "Yarın 05:30 LA Lakers vs Milwaukee Bucks (S Sport)"
 
 MatchType: "Futbol"
+Text: "Yarın 05:30 Kanada vs Meksika (S Sport 2)"
+
+MatchType: "Futbol"
 Text: "Yarın 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)"
+
+MatchType: "Basketbol"
+Text: "Yarın 17:00 Fenerbahçe Opet vs ÇBK Mersin (TRT Spor)"
 
 MatchType: "Futbol"
 Text: "Yarın 20:00 Güney Kıbrıs vs San Marino (CBC Sport)"
 
 MatchType: "Futbol"
 Text: "Yarın 20:30 Türkiye vs Kosova (A Spor)"
+
+MatchType: "Basketbol"
+Text: "Yarın 20:30 Beşiktaş vs Emlak Konut (TRT Spor)"
 
 MatchType: "Basketbol"
 Text: "Yarın 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)"
@@ -87,4 +93,127 @@ Text: "Yarın 22:45 İngiltere vs Arnavutluk (CBC Sport)"
 
 MatchType: "Basketbol"
 Text: "Yarın 22:45 Partizan vs Anadolu Efes (S Sport)"
+
+MatchType: "CANLI"
+Text: "beIN Sports 1"
+
+MatchType: "CANLI"
+Text: "S Sport"
+
+MatchType: "CANLI"
+Text: "Spor Smart"
+
+MatchType: "CANLI"
+Text: "Tivibu Spor 1"
+
+MatchType: "CANLI"
+Text: "tabii Spor 1"
+
+MatchType: "CANLI"
+Text: "TRT Spor"
+
+MatchType: "CANLI"
+Text: "beIN Sports Haber"
+
+MatchType: "CANLI"
+Text: "tabii Spor"
+
+MatchType: "CANLI"
+Text: "A Spor"
+
+MatchType: "CANLI"
+Text: "Tivibu Spor"
+
+MatchType: "CANLI"
+Text: "TV8,5"
+
+MatchType: "CANLI"
+Text: "S Sport 2"
+
+MatchType: "CANLI"
+Text: "Spor Smart 2"
+
+MatchType: "CANLI"
+Text: "HT Spor"
+
+MatchType: "CANLI"
+Text: "beIN Sports 2"
+
+MatchType: "CANLI"
+Text: "beIN Sports 3"
+
+MatchType: "CANLI"
+Text: "beIN Sports 4"
+
+MatchType: "CANLI"
+Text: "beIN Sports 5"
+
+MatchType: "CANLI"
+Text: "beIN Sports Max 1"
+
+MatchType: "CANLI"
+Text: "beIN Sports Max 2"
+
+MatchType: "CANLI"
+Text: "TRT Spor Yıldız"
+
+MatchType: "CANLI"
+Text: "tabii Spor 2"
+
+MatchType: "CANLI"
+Text: "tabii Spor 3"
+
+MatchType: "CANLI"
+Text: "tabii Spor 4"
+
+MatchType: "CANLI"
+Text: "tabii Spor 5"
+
+MatchType: "CANLI"
+Text: "tabii Spor 6"
+
+MatchType: "CANLI"
+Text: "Tivibu Spor 2"
+
+MatchType: "CANLI"
+Text: "Tivibu Spor 3"
+
+MatchType: "CANLI"
+Text: "Tivibu Spor 4"
+
+MatchType: "CANLI"
+Text: "Eurosport 1"
+
+MatchType: "CANLI"
+Text: "Eurosport 2"
+
+MatchType: "CANLI"
+Text: "NBA TV"
+
+MatchType: "CANLI"
+Text: "TRT 1"
+
+MatchType: "CANLI"
+Text: "atv"
+
+MatchType: "CANLI"
+Text: "a2"
+
+MatchType: "CANLI"
+Text: "FB TV"
+
+MatchType: "CANLI"
+Text: "sportstv"
+
+MatchType: "CANLI"
+Text: "TV8"
+
+MatchType: "CANLI"
+Text: "CBC Sport"
+
+MatchType: "CANLI"
+Text: "İDMAN TV"
+
+MatchType: "CANLI"
+Text: "İCTİMAİ TV"
 
