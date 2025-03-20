@@ -6,7 +6,7 @@ on:
     types:
       - completed
   workflow_dispatch:  # Manuel olarak çalıştırılabilir 
-  
+
 jobs:
   run_base_url_script:
     runs-on: ubuntu-latest
@@ -32,9 +32,9 @@ jobs:
           sudo dpkg -i google-chrome-stable_current_amd64.deb
           sudo apt --fix-broken install
 
-      - name: Run proxylive.py
+      - name: Run proxylive.py and update file
         run: |
-          python proxylive.py
+          python proxylive.py > son_m3u_link_tamam.txt  # Çıktıyı doğrudan son_m3u_link_tamam.txt dosyasına yaz
 
       - name: Commit updated son_m3u_link_tamam.txt
         run: |
