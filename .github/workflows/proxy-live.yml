@@ -5,7 +5,7 @@ on:
     workflows: ["Run m3u-link.py script"]
     types:
       - completed
-  workflow_dispatch:  # Manuel çalıştırma için ekleniyor
+  workflow_dispatch:  # Manuel çalıştırma
 
 jobs:
   run_base_url_script:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install selenium webdriver-manager chromedriver-autoinstaller
+          pip install selenium webdriver-manager
 
       - name: Install Chrome and ChromeDriver
         run: |
@@ -33,46 +33,26 @@ jobs:
           sudo apt --fix-broken install
 
       - name: Run proxylive.py
-        id: run_script
         run: |
-          python proxylive.py  # Scripti çalıştırıyoruz
-          NEW_URL=$(python proxylive.py)  # Script'in çıktısını alıyoruz
-
-      - name: Check if son_m3u_link_tamam.txt is updated
-        id: check_update
-        run: |
-          echo "Checking if son_m3u_link_tamam.txt was updated:"
-          OLD_URL=$(cat son_m3u_link_tamam.txt)  # Eski URL'yi alıyoruz
-          if [ "$OLD_URL" == "$NEW_URL" ]; then
-            echo "URL güncellenmeye gerek yoktur"
-            echo "no_update=true" >> $GITHUB_ENV  # URL değişmemişse environment variable set ediyoruz
-          else
-            echo "URL başarıyla son_m3u_link_tamam.txt dosyasına güncellendi"
-            echo "no_update=false" >> $GITHUB_ENV  # URL güncellenmişse farklı bir variable set ediyoruz
-          fi
+          python proxylive.py
 
       - name: Commit updated son_m3u_link_tamam.txt
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          # Değişiklik olup olmadığını kontrol et
+          git pull
           if git diff --quiet; then
             echo "No changes detected. Skipping commit."
           else
             git add son_m3u_link_tamam.txt
-            if [ "${{ env.no_update }}" == "true" ]; then
-              git commit -m "Son M3U linklerini güncellenmeye gerek yoktur"
-            else
-              git commit -m "İzle linkleri güncellendi."
-            fi
+            git commit -m "İzle linkleri güncellendi."
             git push
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Trigger verileri-birlestir.yml workflow
-        if: ${{ success() }}  # Bu adımdan önce başarılı olursa tetiklenir
         run: |
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
