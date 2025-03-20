@@ -38,7 +38,7 @@ jobs:
           
           # Dosya güncellenmemişse hata veriyoruz
           OLD_URL=$(cat ana_link.txt)
-          NEW_URL=$(python ana_domain_alma.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
+          NEW_URL=$(python ana_domain.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
           
           if [ "$OLD_URL" == "$NEW_URL" ]; then
             echo "URL güncellemeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
