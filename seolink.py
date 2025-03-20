@@ -30,9 +30,9 @@ with open("m3u_link.txt", "w", encoding="utf-8") as output_file:
                     full_url = f"{base_url}{seolink}"
                     output_file.write(f"{full_url}\n")
             else:
-                output_file.write("https://LINK BULUNAMADI.m3u8\n")
+                output_file.write("LINK BULUNAMADI\n")
         else:
-            output_file.write("https://LINK BULUNAMADI.m3u8\n")
+            output_file.write("LINK BULUNAMADI\n")
 
     # Extract data from both divs
     extract_and_write(list_area_div)
