@@ -1,5 +1,5 @@
 MatchType: "Tenis"
-Text: "Bugün 17:00 Martin/Fallada vs Saez/Ortiz (beIN Sports Max 2)"
+Text: "Canlı (17:00) Martin/Fallada vs Saez/Ortiz (beIN Sports Max 2)"
 
 MatchType: "Futbol"
 Text: "Bugün 18:00 Türkiye vs İtalya (TRT Spor)"
