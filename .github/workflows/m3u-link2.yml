@@ -1,4 +1,4 @@
-name: Run m3u-link.py script
+name: Run m3u-link2.py script
 
 on:
   workflow_run:
