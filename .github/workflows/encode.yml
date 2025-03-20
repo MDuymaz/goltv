@@ -28,7 +28,7 @@ jobs:
         run: |
           python encode.py
 
-      - name: Commit updated final_url.txt.txt
+      - name: Commit updated final_url.txt
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
@@ -37,7 +37,7 @@ jobs:
           if git diff --quiet; then
             echo "No changes detected. Skipping commit."
           else
-            git add final_url.txt.txt
+            git add final_url.txt
             git commit -m "İzle linkleri güncellendi."
             git push
           fi
