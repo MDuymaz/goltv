@@ -1,0 +1,56 @@
+name: Run m3u-link.py script
+
+on:
+  workflow_run:
+    workflows: ["Run seolink.py script"]
+    types:
+      - completed
+
+jobs:
+  run_base_url_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install undetected-chromedriver selenium psutil
+
+      - name: Run m3u_link.py and update m3u_link_alındı.txt
+        run: |
+          NEW_URL=$(python m3u_link.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
+          echo "$NEW_URL" > m3u_link_alındı.txt  # Yeni URL'yi dosyaya yazıyoruz
+
+      # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
+      - name: Commit updated m3u_link_alındı.txt
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          # Değişiklik olup olmadığını kontrol et
+          git pull
+          if git diff --quiet; then
+            echo "No changes detected. Skipping commit."
+          else
+            git add m3u_link_alındı.txt
+            git commit -m "Son M3U linkleri güncellendi."
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # seolink.yml workflow'unu tetiklemek
+      - name: Trigger proxy-live.yml workflow
+        if: ${{ success() }}
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"ref": "main"}' \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/proxy-live.yml/dispatches
