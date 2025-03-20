@@ -41,7 +41,7 @@ final_urls = []
 for original_url in urls:
     # Eğer URL, https://playerpro.live ile başlıyorsa, direkt ekle
     if original_url.startswith("https://playerpro.live"):
-        final_urls.append(f'Url: {original_url}')
+        final_urls.append(f"{original_url}")
     else:
         # URL encode işlemi
         encoded_referer = urllib.parse.quote(referer, safe=":/?&=")  # referer için encode
