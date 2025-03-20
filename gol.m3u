@@ -1,1 +1,141 @@
+#EXTM3U
 
+#EXTINF:-1 tvg-name="Canlı (17:00) Martin/Fallada vs Saez/Ortiz (beIN Sports Max 2)" tvg-language="Turkish" tvg-country="TR" group-title="Tenis",Canlı (17:00) Martin/Fallada vs Saez/Ortiz (beIN Sports Max 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 18:00 Türkiye vs İtalya (TRT Spor)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 18:00 Türkiye vs İtalya (TRT Spor)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5032/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 18:00 Q.Zheng vs L.Davis (beIN Sports Max 1)" tvg-language="Turkish" tvg-country="TR" group-title="Tenis",Bugün 18:00 Q.Zheng vs L.Davis (beIN Sports Max 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5067/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 19:00 İran vs BAE (Spor Smart)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 19:00 İran vs BAE (Spor Smart)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5091/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 19:00 Özbekistan vs Kırgızistan (Spor Smart 2)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 19:00 Özbekistan vs Kırgızistan (Spor Smart 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5092/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 19:00 Chozas/Ruiz vs Chingotto/Galan (beIN Sports Max 2)" tvg-language="Turkish" tvg-country="TR" group-title="Tenis",Bugün 19:00 Chozas/Ruiz vs Chingotto/Galan (beIN Sports Max 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 20:00 Türkiye vs Macaristan (TV8)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 20:00 Türkiye vs Macaristan (TV8)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5051/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 20:00 Türkiye vs Macaristan (CBC Sport)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 20:00 Türkiye vs Macaristan (CBC Sport)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5131/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 20:30 C.Gauff vs S.Kenin (beIN Sports Max 1)" tvg-language="Turkish" tvg-country="TR" group-title="Tenis",Bugün 20:30 C.Gauff vs S.Kenin (beIN Sports Max 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5067/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 21:00 Abajo/Barrera vs Sanchez/Fernandez (beIN Sports Max 2)" tvg-language="Turkish" tvg-country="TR" group-title="Tenis",Bugün 21:00 Abajo/Barrera vs Sanchez/Fernandez (beIN Sports Max 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 21:00 Monaco vs Fenerbahçe Beko (S Sport)" tvg-language="Turkish" tvg-country="TR" group-title="Basketbol",Bugün 21:00 Monaco vs Fenerbahçe Beko (S Sport)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5101/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 21:00 Olympiakos vs Kizilyildiz (S Sport 2)" tvg-language="Turkish" tvg-country="TR" group-title="Basketbol",Bugün 21:00 Olympiakos vs Kizilyildiz (S Sport 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5102/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 21:15 Suudi Arabistan vs Çin (Spor Smart 2)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 21:15 Suudi Arabistan vs Çin (Spor Smart 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5092/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 21:15 Irak vs Kuveyt (Spor Smart)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 21:15 Irak vs Kuveyt (Spor Smart)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5091/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 22:00 A.Sabalenka vs V.Tomova (beIN Sports Max 1)" tvg-language="Turkish" tvg-country="TR" group-title="Tenis",Bugün 22:00 A.Sabalenka vs V.Tomova (beIN Sports Max 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5067/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 22:45 İtalya vs Almanya (CBC Sport)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Bugün 22:45 İtalya vs Almanya (CBC Sport)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5131/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Bugün 23:00 Fuente/Maldonado vs Senesi/Pons (beIN Sports Max 2)" tvg-language="Turkish" tvg-country="TR" group-title="Tenis",Bugün 23:00 Fuente/Maldonado vs Senesi/Pons (beIN Sports Max 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 02:00 ABD vs Panama (S Sport 2)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Yarın 02:00 ABD vs Panama (S Sport 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5102/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 05:00 GS Warriors vs Toronto Raptors (NBA TV)" tvg-language="Turkish" tvg-country="TR" group-title="Basketbol",Yarın 05:00 GS Warriors vs Toronto Raptors (NBA TV)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5121/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 05:30 Kanada vs Meksika (S Sport 2)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Yarın 05:30 Kanada vs Meksika (S Sport 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5102/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 05:30 LA Lakers vs Milwaukee Bucks (S Sport)" tvg-language="Turkish" tvg-country="TR" group-title="Basketbol",Yarın 05:30 LA Lakers vs Milwaukee Bucks (S Sport)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5101/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Yarın 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5021/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 20:00 Güney Kıbrıs vs San Marino (CBC Sport)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Yarın 20:00 Güney Kıbrıs vs San Marino (CBC Sport)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5131/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 20:30 Türkiye vs Kosova (A Spor)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Yarın 20:30 Türkiye vs Kosova (A Spor)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5003/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)" tvg-language="Turkish" tvg-country="TR" group-title="Basketbol",Yarın 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5066/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 22:15 Panathinaikos vs Alba Berlin (S Sport 2)" tvg-language="Turkish" tvg-country="TR" group-title="Basketbol",Yarın 22:15 Panathinaikos vs Alba Berlin (S Sport 2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5102/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 22:45 İngiltere vs Arnavutluk (CBC Sport)" tvg-language="Turkish" tvg-country="TR" group-title="Futbol",Yarın 22:45 İngiltere vs Arnavutluk (CBC Sport)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5131/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+
+#EXTINF:-1 tvg-name="Yarın 22:45 Partizan vs Anadolu Efes (S Sport)" tvg-language="Turkish" tvg-country="TR" group-title="Basketbol",Yarın 22:45 Partizan vs Anadolu Efes (S Sport)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5101/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
