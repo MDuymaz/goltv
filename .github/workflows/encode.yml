@@ -24,9 +24,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      - name: Run encode.py and update file
+      - name: Run encode.py
         run: |
-          python encode.py > final_url.txt  # Çıktıyı doğrudan dosyaya yaz
+          python encode.py
 
       - name: Commit updated final_url.txt
         run: |
