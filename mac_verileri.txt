@@ -1,5 +1,5 @@
-MatchType: "Tenis"
-Text: "Canlı (23:00) Fuente/Maldonado vs Senesi/Pons (beIN Sports Max 2)"
+Data has been extracted and saved to mac_verileri.txt
+ado vs Senesi/Pons (beIN Sports Max 2)"
 
 MatchType: "Futbol"
 Text: "Canlı (22:45) İtalya vs Almanya (CBC Sport)"
