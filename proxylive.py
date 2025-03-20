@@ -31,7 +31,7 @@ with open("son_m3u_link_tamam.txt", "w") as file:
             continue  
 
         # Eğer "LİNK BULUNAMADI" yazısı varsa ya da link "https://playerpro.live" ile başlıyorsa, direkt dosyaya yaz
-        if link.startswith("https://playerpro.live"):
+        if "LİNK BULUNAMADI" in link or link.startswith("https://playerpro.live"):
             file.write(f"{link}\n")
             print(f"Kaydedildi: {link}")
             continue  # Bu durumda işlem yapmadan sonraki linke geç
