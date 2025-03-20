@@ -21,13 +21,14 @@ extm3u_added = False
 i = 0
 while i < len(lines):
     try:
-        # Boş satırları atlıyoruz
+        # Boş satır varsa, ona 'boş' yazıyoruz
         if not lines[i].strip():
+            formatted_data.append("boş\n")
             i += 1
             continue
 
         # MatchType, Text ve Url satırlarını alıyoruz
-        if lines[i].startswith('MatchType:') and lines[i + 1].startswith('Text:') and lines[i + 2].startswith('Url:'):
+        if lines[i].startswith('MatchType:') and i+2 < len(lines) and lines[i + 1].startswith('Text:') and lines[i + 2].startswith('Url:'):
             match_type = lines[i].strip().replace('MatchType: ', '').replace('"', '')  # MatchType
             text = lines[i + 1].strip().replace('Text: ', '').replace('"', '')  # Text
             url = lines[i + 2].strip()  # URL
