@@ -5,9 +5,8 @@ import re
 try:
     with open("ana_link.txt", "r") as file:
         lines = file.readlines()
-        # Dosyada sadece bir satır varsa, bu satır her iki bilgi için kullanılacak
         if len(lines) >= 1:
-            referer = lines[0].strip()  # Satırdaki tek veri hem referer hem origin olarak kullanılacak
+            referer = lines[0].strip()  
             origin = referer
         else:
             raise ValueError("ana_link.txt dosyasındaki satır sayısı yetersiz. En az bir satır olmalıdır.")
@@ -18,11 +17,16 @@ except FileNotFoundError:
 # son_m3u_link_tamam.txt dosyasından URL'leri alma
 try:
     with open("son_m3u_link_tamam.txt", "r") as file:
-        content = file.read()
-        # URL'leri parantez içinden çekme
-        urls = re.findall(r'\"(https?://[^\"]+)\"', content)
-        if not urls:
-            raise ValueError("son_m3u_link_tamam.txt dosyasındaki URL'ler bulunamadı.")
+        content = file.read().strip()  # Dosyayı okuyup boşlukları temizle
+
+    if not content:
+        raise ValueError("son_m3u_link_tamam.txt dosyası boş.")
+
+    # Çift tırnak olmadan URL'leri yakalayan regex
+    urls = re.findall(r'https?://\S+', content)
+
+    if not urls:
+        raise ValueError("son_m3u_link_tamam.txt dosyasında geçerli URL bulunamadı.")
 except FileNotFoundError:
     print("son_m3u_link_tamam.txt dosyası bulunamadı.")
     exit(1)
@@ -37,7 +41,7 @@ final_urls = []
 for original_url in urls:
     # Eğer URL, https://playerpro.live ile başlıyorsa, direkt ekle
     if original_url.startswith("https://playerpro.live"):
-        final_urls.append(f'Url: "{original_url}"')
+        final_urls.append(f'Url: {original_url}')
     else:
         # URL encode işlemi
         encoded_referer = urllib.parse.quote(referer, safe=":/?&=")  # referer için encode
@@ -47,7 +51,7 @@ for original_url in urls:
         final_url = f"{base_url}{urllib.parse.quote(original_url, safe=':/?&=')}&referer={encoded_referer}&origin={encoded_origin}"
         
         # final_url'yi listeye ekle
-        final_urls.append(f'Url: "{final_url}"')
+        final_urls.append(f'Url: {final_url}')
 
 # final_url'leri final_url.txt dosyasına kaydetme
 try:
