@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Python environment
-        uses: actions/setup-python@v3  # Daha güncel versiyon kullanıyoruz
+        uses: actions/setup-python@v3
         with:
           python-version: '3.9'
 
@@ -23,45 +23,22 @@ jobs:
         run: |
           pip install beautifulsoup4 requests
 
-      - name: Run mac_verileri.py
+      - name: Run mac_verileri.py and update file
         run: |
-          python mac_verileri.py
+          python mac_verileri.py > mac_verileri.txt  # Çıktıyı doğrudan dosyaya yaz
 
-      # Ana link dosyasını kontrol ediyoruz
-      - name: Check if mac_verileri.txt is updated
-        id: check_update
-        run: |
-          echo "Checking if mac_verileri.txt was updated:"
-          cat mac_verileri.txt  # Dosyanın içeriğini kontrol ediyoruz
-          
-          OLD_URL=$(cat mac_verileri.txt)
-          NEW_URL=$(python mac_verileri.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
-          
-          if [ "$OLD_URL" == "$NEW_URL" ]; then
-            echo "URL güncellemeye gerek yoktur"
-            echo "no_update=true" >> $GITHUB_ENV  # URL değişmemişse environment variable set ediyoruz
-          else
-            echo "URL başarıyla mac_verileri.txt dosyasına güncellendi"
-            echo "no_update=false" >> $GITHUB_ENV  # URL güncellenmişse farklı bir variable set ediyoruz
-          fi
-
-      # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
       - name: Commit updated mac_verileri.txt
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          # Değişiklik olup olmadığını kontrol et
-          git pull  # Güncel değişiklikleri almak için ekledik
+          git pull  # Güncel değişiklikleri almak için
+          
           if git diff --quiet; then
             echo "No changes detected. Skipping commit."
           else
             git add mac_verileri.txt
-            if [ "${{ env.no_update }}" == "true" ]; then
-              git commit -m "Mac Verileri güncellenmeye gerek yoktur"
-            else
-              git commit -m "Mac Verileri güncellendi."
-            fi
+            git commit -m "Mac Verileri güncellendi."
             git push
           fi
         env:
@@ -69,7 +46,7 @@ jobs:
 
       # seolink.yml workflow'unu tetiklemek
       - name: Trigger seolink.yml workflow
-        if: ${{ success() }}  # Bu adımdan önce başarılı olursa tetiklenir
+        if: success()
         run: |
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
