@@ -5,8 +5,7 @@ on:
     workflows: ["Run Monitor URL"]  # Ana Domain workflow'u tamamlandığında çalışacak
     types:
       - completed
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir
-
+  
 jobs:
   run_base_url_script:
     runs-on: ubuntu-latest
