@@ -1,18 +1,14 @@
-MatchType: "Tenis"
-Text: "Canlı (17:00) Martin/Fallada vs Saez/Ortiz (beIN Sports Max 2)"
-Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
-
 MatchType: "Futbol"
-Text: "Bugün 18:00 Türkiye vs İtalya (TRT Spor)"
+Text: "Canlı (18:00) Türkiye vs İtalya (TRT Spor)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5032/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
 MatchType: "Tenis"
-Text: "Bugün 18:00 Q.Zheng vs L.Davis (beIN Sports Max 1)"
+Text: "Canlı (18:00) Q.Zheng vs L.Davis (beIN Sports Max 1)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5067/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
-MatchType: "Futbol"
-Text: "Bugün 19:00 İran vs BAE (Spor Smart)"
-Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5091/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
+MatchType: "Tenis"
+Text: "Canlı (17:00) Martin/Fallada vs Saez/Ortiz (beIN Sports Max 2)"
+Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
 MatchType: "Futbol"
 Text: "Bugün 19:00 Özbekistan vs Kırgızistan (Spor Smart 2)"
@@ -21,6 +17,10 @@ Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3
 MatchType: "Tenis"
 Text: "Bugün 19:00 Chozas/Ruiz vs Chingotto/Galan (beIN Sports Max 2)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
+
+MatchType: "Futbol"
+Text: "Bugün 19:00 İran vs BAE (Spor Smart)"
+Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5091/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
 MatchType: "Futbol"
 Text: "Bugün 20:00 Türkiye vs Macaristan (TV8)"
@@ -34,10 +34,6 @@ MatchType: "Tenis"
 Text: "Bugün 20:30 C.Gauff vs S.Kenin (beIN Sports Max 1)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5067/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
-MatchType: "Tenis"
-Text: "Bugün 21:00 Abajo/Barrera vs Sanchez/Fernandez (beIN Sports Max 2)"
-Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
-
 MatchType: "Basketbol"
 Text: "Bugün 21:00 Monaco vs Fenerbahçe Beko (S Sport)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5101/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
@@ -46,13 +42,17 @@ MatchType: "Basketbol"
 Text: "Bugün 21:00 Olympiakos vs Kizilyildiz (S Sport 2)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5102/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
-MatchType: "Futbol"
-Text: "Bugün 21:15 Suudi Arabistan vs Çin (Spor Smart 2)"
-Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5092/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
+MatchType: "Tenis"
+Text: "Bugün 21:00 Abajo/Barrera vs Sanchez/Fernandez (beIN Sports Max 2)"
+Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5068/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
 MatchType: "Futbol"
 Text: "Bugün 21:15 Irak vs Kuveyt (Spor Smart)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5091/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
+
+MatchType: "Futbol"
+Text: "Bugün 21:15 Suudi Arabistan vs Çin (Spor Smart 2)"
+Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5092/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
 MatchType: "Tenis"
 Text: "Bugün 22:00 A.Sabalenka vs V.Tomova (beIN Sports Max 1)"
@@ -69,6 +69,14 @@ Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3
 MatchType: "Futbol"
 Text: "Yarın 02:00 ABD vs Panama (S Sport 2)"
 Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5102/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
+
+MatchType: "Tenis"
+Text: "Yarın 02:00 L.Fruhvirtova vs B.Haddad Maia (beIN Sports Max 1)"
+Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5067/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
+
+MatchType: "Tenis"
+Text: "Yarın 03:30 S.Cirstea vs D.Collins (beIN Sports Max 1)"
+Url: "https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.workers.dev/bc2b05d321cb80050c5d035a9daeb26d/-/5067/playlist.m3u8&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/"
 
 MatchType: "Basketbol"
 Text: "Yarın 05:00 GS Warriors vs Toronto Raptors (NBA TV)"
