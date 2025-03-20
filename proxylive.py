@@ -79,7 +79,7 @@ with open("son_m3u_link_tamam.txt", "w") as file:
                                 url += f"&referer={referer}&origin={referer}"  # Aynı değeri origin parametresine de ekliyoruz
 
                                 # Yeni URL'yi dosyaya kaydediyoruz
-                                file.write(f'Url: "{url}"\n')  # Yeni URL'yi dosyaya ekliyoruz
+                                file.write(f"{url}\n")  # Yeni URL'yi dosyaya ekliyoruz
                                 
                                 print(f"URL kaydedildi: {url}")
                             break
