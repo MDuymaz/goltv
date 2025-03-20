@@ -6,7 +6,7 @@ on:
     types:
       - completed
   
-  jobs:
+jobs:
   run_base_url_script:
     runs-on: ubuntu-latest
 
