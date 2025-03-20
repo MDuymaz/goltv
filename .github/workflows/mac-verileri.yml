@@ -58,9 +58,9 @@ jobs:
           else
             git add mac_verileri.txt
             if [ "${{ env.no_update }}" == "true" ]; then
-              git commit -m "Domain URL güncellenmeye gerek yoktur"
+              git commit -m "Mac Verileri güncellenmeye gerek yoktur"
             else
-              git commit -m "Domain URL güncellendi."
+              git commit -m "Mac Verileri güncellendi."
             fi
             git push
           fi
