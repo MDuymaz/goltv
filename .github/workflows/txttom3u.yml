@@ -24,9 +24,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      - name: Run txt_to_m3u.py and update gol.m3u
+      - name: Run txt_to_m3u.py
         run: |
-          python txt_to_m3u.py > gol.m3u  # Çıktıyı doğrudan gol.m3u dosyasına yaz
+          python txt_to_m3u.py
 
       - name: Commit updated gol.m3u
         run: |
