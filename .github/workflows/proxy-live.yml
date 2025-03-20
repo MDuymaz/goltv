@@ -5,25 +5,30 @@ on:
     workflows: ["Run m3u-link.py script"]
     types:
       - completed
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir
+  workflow_dispatch:  # Manuel olarak çalıştırılabilir 
 
 jobs:
-  run_base_url_script:
-    runs-on: ubuntu-latest
+  run-proxylive-script:
+    runs-on: ubuntu-latest  # GitHub Actions'ı çalıştıracak ortam
 
     steps:
+      # Python ortamını kuruyoruz
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'  # Python 3.9 sürümünü kullanıyoruz
+
+      # Selenium ve diğer gerekli bağımlılıkları yüklüyoruz
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium webdriver-manager
+
+      # Reponun içeriğini çekiyoruz
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Python environment
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: |
-          pip install selenium webdriver-manager
-
+      # Chrome ve ChromeDriver'ı yüklüyoruz
       - name: Install Chrome and ChromeDriver
         run: |
           sudo apt-get update
@@ -32,24 +37,52 @@ jobs:
           sudo dpkg -i google-chrome-stable_current_amd64.deb
           sudo apt --fix-broken install
 
-      - name: Run proxylive.py and update file
+      # proxylive.py scriptini çalıştırıyoruz
+      - name: Run proxylive.py script
         run: |
-          python proxylive.py > son_m3u_link_tamam.txt  # Çıktıyı doğrudan son_m3u_link_tamam.txt dosyasına yaz
+          python proxylive.py
 
-      - name: Check if son_m3u_link_tamam.txt was updated
+      # proxylive.py scriptinin çıktısını kontrol ediyoruz
+      - name: Check if son_m3u_link_tamam.txt is updated
+        id: check_update
         run: |
-          if git diff --quiet son_m3u_link_tamam.txt; then
-            echo "No changes in son_m3u_link_tamam.txt. Skipping commit."
+          echo "Checking if son_m3u_link_tamam.txt was updated:"
+          cat son_m3u_link_tamam.txt  # Dosyanın içeriğini kontrol ediyoruz
+          
+          # Dosya güncellenmemişse hata veriyoruz
+          OLD_CONTENT=$(cat son_m3u_link_tamam.txt)
+          NEW_CONTENT=$(python proxylive.py)  # Yeni içerik için scripti çalıştırıyoruz
+          
+          if [ "$OLD_CONTENT" == "$NEW_CONTENT" ]; then
+            echo "No updates needed."  # İçerik değişmemişse mesaj yazdırıyoruz
+            echo "no_update=true" >> $GITHUB_ENV  # İçerik değişmemişse bir environment variable set ediyoruz
           else
-            echo "son_m3u_link_tamam.txt has been updated. Committing changes."
+            echo "son_m3u_link_tamam.txt file successfully updated"
+            echo "no_update=false" >> $GITHUB_ENV  # İçerik güncellenmişse farklı bir variable set ediyoruz
+          fi
+
+      # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
+      - name: Commit updated son_m3u_link_tamam.txt
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Değişiklik olup olmadığını kontrol et
+          if git diff --quiet; then
+            echo "No changes detected. Skipping commit."
+          else
             git add son_m3u_link_tamam.txt
-            git commit -m "İzle linkleri güncellendi."
+            if [ "${{ env.no_update }}" == "true" ]; then
+              git commit -m "No update needed for M3U link."  # İçerik değişmemişse özel mesaj
+            else
+              git commit -m "M3U links updated."  # İçerik güncellenmişse normal mesaj
+            fi
             git push
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # encode.yml workflow'unu tetiklemek
       - name: Trigger encode.yml workflow
+        if: success()  # Bu adımdan önce başarılı olursa tetiklenir
         run: |
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
