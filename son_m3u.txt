@@ -208,7 +208,7 @@ https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3
 
 MatchType: "CANLI"
 Text: "TRT Spor Yıldız"
-Url: https://playerpro.live/proxy.php?url=https://L%C4%B0NK&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://L%C4%B0NK&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
 
 MatchType: "CANLI"
 Text: "tabii Spor 2"
@@ -280,9 +280,9 @@ https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3
 
 MatchType: "CANLI"
 Text: "CBC Sport"
-Url: https://playerpro.live/proxy.php?url=https://L%C4%B0NK&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://L%C4%B0NK&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
 
 MatchType: "CANLI"
 Text: "İDMAN TV"
-Url: https://playerpro.live/proxy.php?url=https://L%C4%B0NK&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https://L%C4%B0NK&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
 
