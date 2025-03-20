@@ -5,7 +5,7 @@ on:
     workflows: ["Run proxylive.py script"]
     types:
       - completed
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir 
+  workflow_dispatch:  # Manuel olarak çalıştırılabilir
   
 jobs:
   run_base_url_script:
@@ -28,6 +28,24 @@ jobs:
         run: |
           python encode.py
 
+      - name: Check if final_url.txt is updated
+        id: check_update
+        run: |
+          echo "Checking if final_url.txt was updated:"
+          cat final_url.txt  # Dosyanın içeriğini kontrol ediyoruz
+          
+          # Eski ve yeni URL'yi kontrol ediyoruz
+          OLD_URL=$(cat final_url.txt)
+          NEW_URL=$(python encode.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
+          
+          if [ "$OLD_URL" == "$NEW_URL" ]; then
+            echo "final_url.txt güncellenmeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
+            echo "no_update=true" >> $GITHUB_ENV  # URL değişmemişse bir environment variable set ediyoruz
+          else
+            echo "final_url.txt başarıyla güncellendi"
+            echo "no_update=false" >> $GITHUB_ENV  # URL güncellenmişse farklı bir variable set ediyoruz
+          fi
+
       - name: Commit updated final_url.txt
         run: |
           git config --global user.name "GitHub Actions"
@@ -38,7 +56,11 @@ jobs:
             echo "No changes detected. Skipping commit."
           else
             git add final_url.txt
-            git commit -m "İzle linkleri güncellendi."
+            if [ "${{ env.no_update }}" == "true" ]; then
+              git commit -m "final_url.txt güncellenmeye gerek yoktur"  # URL değişmemişse özel mesaj
+            else
+              git commit -m "final_url.txt başarıyla güncellendi."  # URL güncellenmişse normal mesaj
+            fi
             git push
           fi
         env:
