@@ -5,7 +5,8 @@ on:
     workflows: ["Run seolink.py script"]
     types:
       - completed
-
+  workflow_dispatch:  # Manuel olarak çalıştırılabilir
+   
 jobs:
   run_base_url_script:
     runs-on: ubuntu-latest
