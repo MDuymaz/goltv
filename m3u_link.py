@@ -62,11 +62,11 @@ for url in urls:
                 print(f"🎥 En uzun video URL'si bulundu: {longest_video_url}")
             else:
                 print("⚠️ Bu sayfada video URL'si bulunamadı.")
-                all_video_urls.append("LİNK BULUNAMADI")
+                all_video_urls.append("https://LİNK BULUNAMADI.m3u8")
 
         except Exception as e:
             print(f"❌ {url} sayfasında hata oluştu: {e}")
-            all_video_urls.append("LİNK BULUNAMADI")
+            all_video_urls.append("https://LİNK BULUNAMADI.m3u8")
 
 # Video URL'lerini m3u_link_alındı.txt dosyasına kaydediyoruz
 with open("m3u_link_alındı.txt", "w", encoding="utf-8") as file:
