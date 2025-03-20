@@ -1,5 +1,5 @@
-Veriler başarıyla son_m3u.txt dosyasına kaydedildi.
-do vs Senesi/Pons (beIN Sports Max 2)"
+MatchType: "Tenis"
+Text: "Canlı (23:00) Fuente/Maldonado vs Senesi/Pons (beIN Sports Max 2)"
 https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F-%2F5068%2Fplaylist.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
 MatchType: "Futbol"
