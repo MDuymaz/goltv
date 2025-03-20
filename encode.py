@@ -19,14 +19,6 @@ except FileNotFoundError:
 try:
     with open("son_m3u_link_tamam.txt", "r") as file:
         content = file.read()
-        # URL'leri parantez içinden çekme
-        urls = re.findall(r'\"(https?://[^\"]+)\"', content)
-        if not urls:
-            raise ValueError("son_m3u_link_tamam.txt dosyasındaki URL'ler bulunamadı.")
-except FileNotFoundError:
-    print("son_m3u_link_tamam.txt dosyası bulunamadı.")
-    exit(1)
-
 # Base URL
 base_url = "https://playerpro.live/proxy.php?url="
 
