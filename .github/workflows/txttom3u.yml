@@ -38,7 +38,7 @@ jobs:
             echo "No changes detected. Skipping commit."
           else
             git add gol.m3u
-            git commit -m "İzle linkleri güncellendi."
+            git commit -m "Tamamlandı."
             git push
           fi
         env:
