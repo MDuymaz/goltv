@@ -24,9 +24,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      - name: Run verileri_birlestir.py and update son_m3u.txt
+      - name: Run verileri_birlestir.py
         run: |
-          python verileri_birlestir.py > son_m3u.txt  # Çıktıyı doğrudan son_m3u.txt dosyasına yaz
+          python verileri_birlestir.py
 
       - name: Commit updated son_m3u.txt
         run: |
