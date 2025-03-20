@@ -5,8 +5,7 @@ on:
     workflows: ["Run proxylive.py script"]
     types:
       - completed
-  workflow_dispatch:  # Manuel çalıştırma
-
+  
 jobs:
   run_base_url_script:
     runs-on: ubuntu-latest
