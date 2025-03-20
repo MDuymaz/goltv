@@ -14,24 +14,28 @@ soup = BeautifulSoup(response.content, "html.parser")
 # Find the div with the class "list-area"
 list_area_div = soup.find("div", class_="list-area")
 
-# If the div is found, proceed to extract the data
-if list_area_div:
-    # Find all elements with the "data-seolink" attribute
-    seolinks = list_area_div.find_all(attrs={"data-seolink": True})
+# Find the div with the class "channel-area"
+channel_area_div = soup.find("div", class_="channel-area")
 
-    # Open m3u_link.txt to write the extracted data
-    with open("m3u_link.txt", "w", encoding="utf-8") as output_file:
-        # Now write the full URL for each seolink data
-        for link in seolinks:
-            # Extract the "data-seolink" attribute value
-            seolink = link.get("data-seolink")
+# Open m3u_link.txt to write the extracted data
+with open("m3u_link.txt", "w", encoding="utf-8") as output_file:
+    
+    # Function to extract and write data-seolink URLs
+    def extract_and_write(div):
+        if div:
+            seolinks = div.find_all(attrs={"data-seolink": True})
+            if seolinks:
+                for link in seolinks:
+                    seolink = link.get("data-seolink")
+                    full_url = f"{base_url}{seolink}"
+                    output_file.write(f"{full_url}\n")
+            else:
+                output_file.write("LINK BULUNAMADI\n")
+        else:
+            output_file.write("LINK BULUNAMADI\n")
 
-            # Create the full URL by concatenating the base URL with the seolink
-            full_url = f"{base_url}{seolink}"
+    # Extract data from both divs
+    extract_and_write(list_area_div)
+    extract_and_write(channel_area_div)
 
-            # Write the full URL into the text file
-            output_file.write(f"{full_url}\n")
-
-    print("Data has been extracted and saved to m3u_link.txt")
-else:
-    print("The specified div <div class='list-area'> was not found.")
+print("Data has been extracted and saved to m3u_link.txt")
