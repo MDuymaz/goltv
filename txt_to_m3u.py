@@ -30,7 +30,7 @@ while i < len(lines):
         if lines[i].startswith('MatchType:') and lines[i + 1].startswith('Text:') and lines[i + 2].startswith('Url:'):
             match_type = lines[i].strip().replace('MatchType: ', '').replace('"', '')  # MatchType
             text = lines[i + 1].strip().replace('Text: ', '').replace('"', '')  # Text
-            url = lines[i + 2].strip().replace('Url: ', '').replace('"', '')  # URL
+            url = lines[i + 2].strip()  # URL
 
             # Eğer #EXTM3U daha önce eklenmediyse, ilk başta ekliyoruz
             if not extm3u_added:
