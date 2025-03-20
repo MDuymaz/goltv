@@ -69,19 +69,13 @@ with open("son_m3u_link_tamam.txt", "w") as file:
                         if "proxy.php" in url:
                             print(f"Found URL: {url}")
                             
-                            # referer parametresini URL'den dinamik olarak alıyoruz
-                            referer_url = log['params']['response'].get('url', '')
-                            if "referer=" in referer_url:
-                                referer = referer_url.split('referer=')[1].split('&')[0]
+                            # URL'den tırnak işaretlerini kaldırıyoruz
+                            cleaned_url = url.strip('"')  # Tırnak işaretlerini temizliyoruz
 
-                                # URL'yi güncelliyoruz, sadece bir kez referer ve origin parametrelerini ekliyoruz
-                                url = url.split('&referer=')[0]  # Eğer referer zaten varsa, onu çıkarıyoruz
-                                url += f"&referer={referer}&origin={referer}"  # Aynı değeri origin parametresine de ekliyoruz
-
-                                # Yeni URL'yi dosyaya kaydediyoruz
-                                file.write(f"{url}\n")  # Yeni URL'yi dosyaya ekliyoruz
-                                
-                                print(f"URL kaydedildi: {url}")
+                            # Yeni URL'yi dosyaya kaydediyoruz
+                            file.write(f"{cleaned_url}\n")  # Yeni URL'yi dosyaya ekliyoruz
+                            
+                            print(f"URL kaydedildi: {cleaned_url}")
                             break
 
             # Sayfayı yeniden yükleyerek işlemi sıfırlıyoruz
