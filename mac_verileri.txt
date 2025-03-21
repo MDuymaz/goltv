@@ -1,8 +1,14 @@
 MatchType: "Futbol"
-Text: "Bugün 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)"
+Text: "Canlı (14:00) Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)"
 
 MatchType: "Basketbol"
 Text: "Bugün 17:00 Fenerbahçe Opet vs ÇBK Mersin (TRT Spor)"
+
+MatchType: "Tenis"
+Text: "Bugün 17:00 Martin/Fallada vs Villa/Prieto (beIN Sports Max 2)"
+
+MatchType: "Tenis"
+Text: "Bugün 19:00 Nenno/Garrido vs Chingotto/Galan (beIN Sports Max 2)"
 
 MatchType: "Tenis"
 Text: "Bugün 19:00 C.Garcia vs I.Swiatek (beIN Sports Max 1)"
@@ -17,13 +23,16 @@ MatchType: "Futbol"
 Text: "Bugün 20:30 Türkiye vs Kosova (A Spor)"
 
 MatchType: "Basketbol"
-Text: "Bugün 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)"
+Text: "Bugün 20:30 Beşiktaş vs Emlak Konut (TRT Spor)"
 
 MatchType: "Basketbol"
-Text: "Bugün 20:30 Beşiktaş vs Emlak Konut (TRT Spor)"
+Text: "Bugün 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)"
 
 MatchType: "Tenis"
 Text: "Bugün 21:00 B.Pera vs J.Pegula (beIN Sports Max 1)"
+
+MatchType: "Tenis"
+Text: "Bugün 21:00 Gallego/Araujo vs Zielinski/Pelegri (beIN Sports Max 2)"
 
 MatchType: "Basketbol"
 Text: "Bugün 22:15 Panathinaikos vs Alba Berlin (S Sport 2)"
@@ -33,6 +42,15 @@ Text: "Bugün 22:45 Partizan vs Anadolu Efes (S Sport)"
 
 MatchType: "Futbol"
 Text: "Bugün 22:45 İngiltere vs Arnavutluk (CBC Sport)"
+
+MatchType: "Tenis"
+Text: "Bugün 23:00 Alcorisa/Jensen vs Senesi/Pons (beIN Sports Max 2)"
+
+MatchType: "Tenis"
+Text: "Yarın 01:00 Coello/Tapia vs Navarro/Bergamini (beIN Sports Max 2)"
+
+MatchType: "Tenis"
+Text: "Yarın 03:00 Gonzalez/Sans vs Stupaczuk/Lebron (beIN Sports Max 2)"
 
 MatchType: "Basketbol"
 Text: "Yarın 03:00 Miami Heat vs Houston Rockets (S Sport)"
@@ -47,10 +65,10 @@ MatchType: "Basketbol"
 Text: "Yarın 13:00 Mersin Spor vs Galatasaray (beIN Sports 5)"
 
 MatchType: "Futbol"
-Text: "Yarın 14:00 İngiltere vs Türkiye (TRT Spor)"
+Text: "Yarın 14:00 Batman Petrol vs Sarıyer (HT Spor)"
 
 MatchType: "Futbol"
-Text: "Yarın 14:00 Batman Petrol vs Sarıyer (HT Spor)"
+Text: "Yarın 14:00 İngiltere vs Türkiye (TRT Spor)"
 
 MatchType: "Futbol"
 Text: "Yarın 14:00 Fenerbahçe vs Amedspor (FB TV)"
@@ -67,6 +85,9 @@ Text: "Yarın 18:00 Petkimspor vs Tofaş (beIN Sports 5)"
 MatchType: "Basketbol"
 Text: "Yarın 18:00 Petkimspor vs Tofaş (beIN Sports Haber)"
 
+MatchType: "Basketbol"
+Text: "Yarın 20:00 Valencia Basket vs Leyma Coruna (Spor Smart)"
+
 MatchType: "Futbol"
 Text: "Yarın 20:30 Mirandes vs Racing Santander (S Sport)"
 
@@ -78,6 +99,9 @@ Text: "Yarın 20:45 Azerbaycan vs Haiti (CBC Sport)"
 
 MatchType: "Futbol"
 Text: "Yarın 22:45 Galler vs Kazakistan (CBC Sport)"
+
+MatchType: "Basketbol"
+Text: "Yarın 22:45 Baskonia vs Manresa (Spor Smart)"
 
 MatchType: "CANLI"
 Text: "beIN Sports 1"
