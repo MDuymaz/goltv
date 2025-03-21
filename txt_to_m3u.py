@@ -45,7 +45,7 @@ while i < len(lines):
                 continue
 
             formatted_entry = f"""
-#EXTINF:-1 tvg-name=\"{text.upper()}\" tvg-language=\"Turkish\" tvg-country=\"TR\" group-title=\"{match_type.upper()}\",{text}
+#EXTINF:-1 tvg-name=\"{text.upper()}\" tvg-language=\"Turkish\" tvg-country=\"TR\" group-title=\"{match_type.upper()}\",{text.upper()}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer={referrer_url}
 {url}
