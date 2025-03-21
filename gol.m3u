@@ -1,34 +1,19 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-name="CANLI (03:30) S.CIRSTEA VS D.COLLINS (BEIN SPORTS MAX 1)" tvg-language="Turkish" tvg-country="TR" group-title="TENIS",Canlı (03:30) S.Cirstea vs D.Collins (beIN Sports Max 1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5067%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
-
-#EXTINF:-1 tvg-name="CANLI (02:00) ABD VS PANAMA (S SPORT 2)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Canlı (02:00) ABD vs Panama (S Sport 2)
+#EXTINF:-1 tvg-name="CANLI (05:30) KANADA VS MEKSIKA (S SPORT 2)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Canlı (05:30) Kanada vs Meksika (S Sport 2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
 https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5102%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
-#EXTINF:-1 tvg-name="CANLI (02:00) L.FRUHVIRTOVA VS B.HADDAD MAIA (BEIN SPORTS MAX 1)" tvg-language="Turkish" tvg-country="TR" group-title="TENIS",Canlı (02:00) L.Fruhvirtova vs B.Haddad Maia (beIN Sports Max 1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5067%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
-
-#EXTINF:-1 tvg-name="BUGÜN 05:00 GS WARRIORS VS TORONTO RAPTORS (NBA TV)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",Bugün 05:00 GS Warriors vs Toronto Raptors (NBA TV)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F-%2F5121%2Fplaylist.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
-
-#EXTINF:-1 tvg-name="BUGÜN 05:30 KANADA VS MEKSIKA (S SPORT 2)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Bugün 05:30 Kanada vs Meksika (S Sport 2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5102%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
-
-#EXTINF:-1 tvg-name="BUGÜN 05:30 LA LAKERS VS MILWAUKEE BUCKS (S SPORT)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",Bugün 05:30 LA Lakers vs Milwaukee Bucks (S Sport)
+#EXTINF:-1 tvg-name="CANLI (05:30) LA LAKERS VS MILWAUKEE BUCKS (S SPORT)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",Canlı (05:30) LA Lakers vs Milwaukee Bucks (S Sport)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
 https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5101%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
+
+#EXTINF:-1 tvg-name="CANLI (05:00) GS WARRIORS VS TORONTO RAPTORS (NBA TV)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",Canlı (05:00) GS Warriors vs Toronto Raptors (NBA TV)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5121%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
 #EXTINF:-1 tvg-name="BUGÜN 14:00 KÜÇÜKÇEKMECE SINOP VS 1923 MUSTAFAKEMALPAŞA SPOR (HT SPOR)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Bugün 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -98,7 +83,7 @@ https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3
 #EXTINF:-1 tvg-name="YARIN 03:30 DALLAS MAVERICKS VS DETROIT PISTONS (NBA TV)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",Yarın 03:30 Dallas Mavericks vs Detroit Pistons (NBA TV)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F-%2F5121%2Fplaylist.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
+https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5121%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
 #EXTINF:-1 tvg-name="YARIN 04:25 UCONN VS OKLAHOMA (S SPORT 2)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",Yarın 04:25 Uconn vs Oklahoma (S Sport 2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -110,20 +95,20 @@ https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
 https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5066%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
-#EXTINF:-1 tvg-name="YARIN 14:00 FENERBAHÇE VS AMEDSPOR (FB TV)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Yarın 14:00 Fenerbahçe vs Amedspor (FB TV)
+#EXTINF:-1 tvg-name="YARIN 14:00 İNGILTERE VS TÜRKIYE (TRT SPOR)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Yarın 14:00 İngiltere vs Türkiye (TRT Spor)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F-%2F5011%2Fplaylist.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
+https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5032%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
 #EXTINF:-1 tvg-name="YARIN 14:00 BATMAN PETROL VS SARIYER (HT SPOR)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Yarın 14:00 Batman Petrol vs Sarıyer (HT Spor)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
 https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5021%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
-#EXTINF:-1 tvg-name="YARIN 14:00 İNGILTERE VS TÜRKIYE (TRT SPOR)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Yarın 14:00 İngiltere vs Türkiye (TRT Spor)
+#EXTINF:-1 tvg-name="YARIN 14:00 FENERBAHÇE VS AMEDSPOR (FB TV)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",Yarın 14:00 Fenerbahçe vs Amedspor (FB TV)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5032%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
+https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F-%2F5011%2Fplaylist.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
 #EXTINF:-1 tvg-name="YARIN 15:30 MANISA BB VS TÜRK TELEKOM (BEIN SPORTS 5)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",Yarın 15:30 Manisa BB vs Türk Telekom (beIN Sports 5)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -323,7 +308,7 @@ https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3
 #EXTINF:-1 tvg-name="NBA TV" tvg-language="Turkish" tvg-country="TR" group-title="CANLI",NBA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F-%2F5121%2Fplaylist.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
+https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5121%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
 #EXTINF:-1 tvg-name="TRT 1" tvg-language="Turkish" tvg-country="TR" group-title="CANLI",TRT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
