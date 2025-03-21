@@ -1,17 +1,11 @@
 MatchType: "Tenis"
-Text: "Canlı (23:00) Fuente/Maldonado vs Senesi/Pons (beIN Sports Max 2)"
+Text: "Canlı (03:30) S.Cirstea vs D.Collins (beIN Sports Max 1)"
 
 MatchType: "Futbol"
-Text: "Canlı (22:45) İtalya vs Almanya (CBC Sport)"
-
-MatchType: "Futbol"
-Text: "Bugün 02:00 ABD vs Panama (S Sport 2)"
+Text: "Canlı (02:00) ABD vs Panama (S Sport 2)"
 
 MatchType: "Tenis"
-Text: "Bugün 02:00 L.Fruhvirtova vs B.Haddad Maia (beIN Sports Max 1)"
-
-MatchType: "Tenis"
-Text: "Bugün 03:30 S.Cirstea vs D.Collins (beIN Sports Max 1)"
+Text: "Canlı (02:00) L.Fruhvirtova vs B.Haddad Maia (beIN Sports Max 1)"
 
 MatchType: "Basketbol"
 Text: "Bugün 05:00 GS Warriors vs Toronto Raptors (NBA TV)"
@@ -28,17 +22,26 @@ Text: "Bugün 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Sp
 MatchType: "Basketbol"
 Text: "Bugün 17:00 Fenerbahçe Opet vs ÇBK Mersin (TRT Spor)"
 
+MatchType: "Tenis"
+Text: "Bugün 19:00 C.Garcia vs I.Swiatek (beIN Sports Max 1)"
+
+MatchType: "Tenis"
+Text: "Bugün 19:30 E.Navarro vs E.Raducanu (beIN Sports Max 1)"
+
 MatchType: "Futbol"
 Text: "Bugün 20:00 Güney Kıbrıs vs San Marino (CBC Sport)"
 
-MatchType: "Basketbol"
-Text: "Bugün 20:30 Beşiktaş vs Emlak Konut (TRT Spor)"
+MatchType: "Futbol"
+Text: "Bugün 20:30 Türkiye vs Kosova (A Spor)"
 
 MatchType: "Basketbol"
 Text: "Bugün 20:30 Darüşşafaka vs Bahçeşehir Klj (beIN Sports 5)"
 
-MatchType: "Futbol"
-Text: "Bugün 20:30 Türkiye vs Kosova (A Spor)"
+MatchType: "Basketbol"
+Text: "Bugün 20:30 Beşiktaş vs Emlak Konut (TRT Spor)"
+
+MatchType: "Tenis"
+Text: "Bugün 21:00 B.Pera vs J.Pegula (beIN Sports Max 1)"
 
 MatchType: "Basketbol"
 Text: "Bugün 22:15 Panathinaikos vs Alba Berlin (S Sport 2)"
