@@ -1,13 +1,4 @@
 MatchType: "Futbol"
-Text: "Canlı (05:30) Kanada vs Meksika (S Sport 2)"
-
-MatchType: "Basketbol"
-Text: "Canlı (05:30) LA Lakers vs Milwaukee Bucks (S Sport)"
-
-MatchType: "Basketbol"
-Text: "Canlı (05:00) GS Warriors vs Toronto Raptors (NBA TV)"
-
-MatchType: "Futbol"
 Text: "Bugün 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)"
 
 MatchType: "Basketbol"
