@@ -1,20 +1,11 @@
-MatchType: "Tenis"
-Text: "Canlı (03:30) S.Cirstea vs D.Collins (beIN Sports Max 1)"
-
 MatchType: "Futbol"
-Text: "Canlı (02:00) ABD vs Panama (S Sport 2)"
-
-MatchType: "Tenis"
-Text: "Canlı (02:00) L.Fruhvirtova vs B.Haddad Maia (beIN Sports Max 1)"
+Text: "Canlı (05:30) Kanada vs Meksika (S Sport 2)"
 
 MatchType: "Basketbol"
-Text: "Bugün 05:00 GS Warriors vs Toronto Raptors (NBA TV)"
-
-MatchType: "Futbol"
-Text: "Bugün 05:30 Kanada vs Meksika (S Sport 2)"
+Text: "Canlı (05:30) LA Lakers vs Milwaukee Bucks (S Sport)"
 
 MatchType: "Basketbol"
-Text: "Bugün 05:30 LA Lakers vs Milwaukee Bucks (S Sport)"
+Text: "Canlı (05:00) GS Warriors vs Toronto Raptors (NBA TV)"
 
 MatchType: "Futbol"
 Text: "Bugün 14:00 Küçükçekmece Sinop vs 1923 Mustafakemalpaşa Spor (HT Spor)"
@@ -65,13 +56,13 @@ MatchType: "Basketbol"
 Text: "Yarın 13:00 Mersin Spor vs Galatasaray (beIN Sports 5)"
 
 MatchType: "Futbol"
-Text: "Yarın 14:00 Fenerbahçe vs Amedspor (FB TV)"
+Text: "Yarın 14:00 İngiltere vs Türkiye (TRT Spor)"
 
 MatchType: "Futbol"
 Text: "Yarın 14:00 Batman Petrol vs Sarıyer (HT Spor)"
 
 MatchType: "Futbol"
-Text: "Yarın 14:00 İngiltere vs Türkiye (TRT Spor)"
+Text: "Yarın 14:00 Fenerbahçe vs Amedspor (FB TV)"
 
 MatchType: "Basketbol"
 Text: "Yarın 15:30 Manisa BB vs Türk Telekom (beIN Sports 5)"
