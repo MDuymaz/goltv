@@ -1,7 +1,4 @@
 MatchType: "Basketbol"
-Text: "Canlı (04:25) Uconn vs Oklahoma (S Sport 2)"
-
-MatchType: "Basketbol"
 Text: "Bugün 13:00 Mersin Spor vs Galatasaray (beIN Sports 5)"
 
 MatchType: "Futbol"
